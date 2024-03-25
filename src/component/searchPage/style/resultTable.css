@@ -1,0 +1,282 @@
+.resultTable__container{
+    padding: 3rem 2vw !important;
+    color: white;
+    /* min-width: 120rem ; */
+    /* width: 100%; */
+    overflow-x: scroll !important;
+    margin-top: 3rem;
+    background-color: black;
+}
+.full_width{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100% in !important;
+    padding: 0 !important;
+    min-width: 900px;
+}
+.full__width{
+    width: 100%;
+    min-width: 900px;
+}
+.listAccordion__table{
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.thResult__playlist{
+    width: 20%;
+    min-width: 384px;
+}
+.thResutl__followers{
+    width: 10%;
+    min-width: 192px;
+}
+.thResutl__track{
+    width: 5%;
+    min-width: 96px;
+}
+.thResutl__popularity{
+    width: 10%;
+    min-width: 192px;
+}
+.thResutl__last{
+    width: 15%;
+    min-width: 288px;
+}
+.thResutl__public{
+    width: 5%;
+    min-width: 96px;
+}
+.thResutl__email{
+    width: 15%;
+    min-width: 288px;
+}
+.thResutl__link{
+    width: 10%;
+    min-width: 192px;
+}
+.thResutl__social{
+    width: 10%;
+    min-width: 192px;
+}
+.listAccordion__helper{
+    font-size: 1.1rem;
+    /* color: white; */
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.point__color{
+    color: #777777;
+}
+.listAccordio__tableRow{
+    height: auto;
+    border: 1rem solid black;
+    background-color: #202222;
+    width: 100% !important;
+    margin-bottom: 5rem;
+    color: white;
+}
+.result__playlistDetail{
+    padding: 15px 20px;
+    padding-right: 1.56rem;
+}
+.playlistDetail__heading{
+    font-size: 1.125rem;
+    font-weight: 600;
+    /* color: #C4C4C4; */
+}
+.playlistDetail__desc{
+    font-size: 1.125rem;
+    /* color: #C4C4C4; */
+}
+.playlistDetail__btnBox{
+    display: flex;
+}
+.playDetail__detailBtn{
+    height: 1.90rem;
+    width: 8vw !important;
+    min-width: 100px;
+    background-color: #C61880;
+    border-radius: 1.125rem;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.playDetail__secondaryText{
+    font-size: 1.18rem;
+    /* color: #C4C4C4; */
+}
+.light__mode{
+    background-color: #C1C1C1 !important;
+    color: black !important;
+}
+.light__modeRow{
+    background-color: #EAEAEA !important;
+    color: black !important;
+    border-color: #C1C1C1 !important;
+}
+
+@media screen and (max-width: 1750px){
+    .thResult__playlist{
+        width: 20%;
+        min-width: 20rem;
+    }
+    .thResutl__followers{
+        width: 10%;
+        min-width: 10rem;
+    }
+    .thResutl__track{
+        width: 5%;
+        min-width: 5rem;
+    }
+    .thResutl__popularity{
+        width: 10%;
+        min-width: 10rem;
+    }
+    .thResutl__last{
+        width: 15%;
+        min-width: 15rem;
+    }
+    .thResutl__public{
+        width: 5%;
+        min-width: 5rem;
+    }
+    .thResutl__email{
+        width: 15%;
+        min-width: 15rem;
+    }
+    .thResutl__link{
+        width: 10%;
+        min-width: 10rem;
+    }
+    .thResutl__social{
+        width: 10%;
+        min-width: 10rem;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .resultTable__container{
+        padding: 1.8rem 2vw !important;
+    }
+    .full_width{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .listAccordion__helper{
+        font-size: 0.95rem;
+        padding-bottom: 1.5rem;
+    }
+    .listAccordio__tableRow{
+        margin-bottom: 3.2rem;
+        border: 1rem solid black;
+    }
+    .result__playlistDetail{
+        padding-right: 1.1rem;
+    }
+    .playlistDetail__heading{
+        font-size: 0.9rem;
+    }
+    .playlistDetail__desc{
+        font-size: 0.8rem;
+    }
+    .playDetail__detailBtn{
+        height: 1.2rem;
+        border-radius: 1rem;
+        font-size: 0.8rem;
+    }
+    .playDetail__secondaryText{
+        font-size: 0.9rem;
+    }
+    .thResult__playlist{
+        width: 20%;
+        min-width: 16rem;
+    }
+    .thResutl__followers{
+        width: 10%;
+        min-width: 8rem;
+    }
+    .thResutl__track{
+        width: 5%;
+        min-width: 5rem;
+    }
+    .thResutl__popularity{
+        width: 10%;
+        min-width: 8rem;
+    }
+    .thResutl__last{
+        width: 15%;
+        min-width: 12rem;
+    }
+    .thResutl__public{
+        width: 5%;
+        min-width: 4rem;
+    }
+    .thResutl__email{
+        width: 15%;
+        min-width: 12rem;
+    }
+    .thResutl__link{
+        width: 10%;
+        min-width: 8rem;
+    }
+    .thResutl__social{
+        width: 10%;
+        min-width: 8rem;
+    }
+}
+
+@media screen and (max-width : 750px){
+    .resultTable__container{
+        padding: 2rem 2vw !important;
+    }
+    .full_width{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .listAccordion__helper{
+        font-size: 0.8rem;
+        padding-bottom: 1.1rem;
+    }
+    .listAccordio__tableRow{
+        margin-bottom: 2.8rem;
+    }
+    .result__playlistDetail{
+        padding-right: 0.9rem;
+    }
+    .playlistDetail__heading{
+        font-size: 0.75rem;
+    }
+    .playlistDetail__desc{
+        font-size: 0.75rem;
+    }
+    .playDetail__detailBtn{
+        height: 1rem;
+        border-radius: 0.85rem;
+        font-size: 0.75rem;
+    }
+    .playDetail__secondaryText{
+        font-size: 0.8rem;
+    }
+}
+
+::-webkit-scrollbar{
+    height: 8px;
+    width: 4px;
+    background: black;
+}
+/* ::-webkit-scrollbar-thumb:horizontal{
+    background: white;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:vertical{
+    background: white;
+    border-radius: 10px;
+} */

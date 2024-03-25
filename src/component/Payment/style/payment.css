@@ -1,0 +1,20 @@
+.payment__maiHeading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.payment__container{
+    width: 60vw;
+    margin: 1.25rem 3.125rem;
+    border: 2px solid #121212;
+    padding: 2rem;
+}
+.payment__form{
+    margin-top: 5rem;
+}
+.payment__formLabel{
+    font-size: 1rem !important;
+    color: grey !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}

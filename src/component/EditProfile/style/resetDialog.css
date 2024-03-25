@@ -1,0 +1,26 @@
+.reset__dialog{
+    border: none !important;
+    font-size: 0.7rem;
+    color: #FA7150;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #FA7150;
+}
+.MuiButton-label{
+    color: #FA7150;
+}
+.resetDialog__disagree{
+    background-color: #C4C4C4 !important;
+    color: white !important;
+    border-radius: 12px;
+}
+.resetDialog__disagree > .MuiButton-label{
+    color: white !important;
+}
+.resetDialog__agree{
+    background-color: #18E0BA !important;
+    color: white !important;
+    border-radius: 12px;
+}
+.resetDialog__agree > .MuiButton-label{
+    color: white !important;
+}

@@ -1,0 +1,60 @@
+.emailSuccess__container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #121212; */
+    background-image: url('../../LandingPage/asset/curved_lines.svg');
+}
+.emailSuccess__mainHeading{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #C61880;
+    font-family: 'Questrial', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.emailSuccess__subBtn{
+    width: 14.5vw;
+    font-size: 26px;
+    padding: 1.5vh 0.25vw;
+    background-color: #C61880;
+    text-transform: capitalize;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 11rem;
+}
+
+@media screen and (max-width : 1500px){
+    .emailSuccess__mainHeading{
+        font-size: 2.8rem;
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .emailSuccess__subBtn{
+        font-size: 20px;
+        border-radius: 14px;
+    }
+}
+
+@media screen and (max-width : 800px){
+        .emailSuccess__mainHeading{
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+            text-align: center;
+        }
+        
+        .emailSuccess__subBtn{
+            font-size: 16px;
+            border-radius: 10px;
+        }
+    }

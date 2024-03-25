@@ -1,0 +1,133 @@
+.songFeature__container{
+    background-color: transparent;
+    color: white;
+    padding: 6.25rem 10vw;
+    display: flex;
+    justify-content: center;
+}
+.songFeature__mainHeading{
+    font-size: 2.37rem;
+    font-family: 'Questrial', sans-serif;
+
+}
+.songFeature__leftSide{
+    margin-right: 10vw;
+    /* border: 1px solid white; */
+}
+.songFeature__leftSide > img{
+    margin-top: 5rem;
+}
+.songFeature__featureList{
+    margin-top: 5.6rem;
+}
+.songFeature__featureBox{
+    margin-top: 3.125rem;
+    font-size: 1.18rem;
+    font-weight: 600;
+}
+.songFeature__featureList > p{
+    margin-top: 0.62rem;
+}
+.progress-bar-striped{
+    background-image: none !important;
+}
+
+.progress{
+    background-color: black !important;
+    width: 350px !important;
+    height: 0.68rem !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none;
+}
+.bar{
+    color: #C61880 !important;
+    border-radius: 50% !important;
+
+}
+.progress-bar{
+    background-color: #C61880 !important;
+}
+
+@media screen and (max-width : 1500px){
+    .songFeature__container{
+        padding: 5.5rem 10vw;
+    }
+    .songFeature__mainHeading{
+        font-size: 1.8rem;
+    }
+    .songFeature__leftSide{
+        margin-right: 10vw;
+    }
+    .songFeature__leftSide > img{
+        margin-top: 3rem;
+    }
+    .songFeature__featureList{
+        margin-top: 4.5rem;
+    }
+    .songFeature__featureBox{
+        margin-top: 2.8rem;
+        font-size: 1rem;
+    }
+    .songFeature__featureList > p{
+        margin-top: 0.62rem;
+    }
+}
+@media screen and (max-width : 1000px){
+    .songFeature__container{
+        padding: 4.5rem 10vw;
+    }
+    .songFeature__mainHeading{
+        font-size: 1.3rem;
+    }
+    .songFeature__leftSide{
+        margin-right: 10vw;
+    }
+    .songFeature__leftSide > img{
+        margin-top: 2.4rem;
+        width : 300px
+    }
+    .songFeature__featureList{
+        margin-top: 4rem;
+    }
+    .songFeature__featureBox{
+        margin-top: 2.2rem;
+        font-size: 0.9rem;
+    }
+    .songFeature__featureList > p{
+        margin-top: 0.62rem;
+    }
+}
+@media screen and (max-width : 900px){
+    .songFeature__container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .songFeature__rightSide{
+        /* border: 1px solid white; */
+        width: 400px;
+        margin: auto;
+    }
+    .songFeature__leftSide{
+        /* border: 1px solid white; */
+        width: 400px;
+        margin: auto;
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width : 500px){
+    .songFeature__container{
+        padding: 3.5rem 15px;
+    }
+    .songFeature__rightSide{
+        width: 300px;
+        margin: auto;
+    }
+    .songFeature__leftSide{
+        width: 300px;
+        margin: auto;
+        margin-top: 5rem;
+    }
+    .progress{
+        width: 300px !important;
+    }
+}

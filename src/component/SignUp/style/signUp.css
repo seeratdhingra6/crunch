@@ -1,0 +1,178 @@
+.signUp__container{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    
+}
+.signUp__form{
+    width: 60vw;
+    max-width: 1400px;
+    margin: auto;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+
+}
+.signUp__name{
+    display: flex;
+    justify-content: space-between !important;
+    width: 100%;
+}
+.signUp__password{
+    display: flex;
+    justify-content: space-between !important;
+    width: 100%;
+}
+.signUp__formControl > input{
+    height: 4.3rem;
+    background-color: #121212;
+    width: 28vw;
+    max-width: 31.25rem;
+    border: 2px solid #C61880;
+    border-radius: 1.2rem;
+    margin-bottom: 3rem;
+    color: white;
+    padding: 0rem 10px;
+    min-width: 300px;
+}
+.signUp__label{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.signUp__checkBox{
+    height: 20px;
+    width: 60px;
+}
+span{
+    color: #BCBCBC;
+    margin-top: -3px;
+}
+.signUp__subBtn{
+    height: 3.75rem;
+    width: 14.3rem;
+    background-color: #C61880;
+    color: white;
+    border: none;
+    margin: auto;
+    border-radius: 1.25rem;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+.signUp__login{
+    color: #FA7150;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.signUp__loginBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+.signUp__loginBox > a:hover{
+    background-color: black !important;
+    text-decoration: underline !important;
+    color: #FA7150 !important;
+}
+.signUp__subBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.signUp__form > button:hover {
+    background-color: #FA7150;
+}
+.signUp__form > button:focus{
+    background-color: #F5927B;
+}
+
+@media screen and (max-width : 1500px){
+    .signUp__formControl > input{
+        height: 3.5rem;
+        width: 28vw;
+        max-width: 31.25rem;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+    }
+    .signUp__label{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .signUp__subBtn{
+        height: 3rem;
+        width: 13rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width : 1000px){
+    .signUp__form{
+        width: 80vw;
+    }
+    .signUp__form > input{
+        height: 3rem;
+        width:  35vw;
+        max-width: 31.25rem;
+        border-radius: 0.9rem;
+        margin-bottom: 1.3rem;
+    }
+    .signUp__label{
+        font-size: 0.9rem;
+    }
+    .signUp__subBtn{
+        height: 2.5rem;
+        width: 11rem;
+        border-radius: 0.9rem;
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width : 650px){
+    .signUp__name{
+        display: flex;
+        flex-direction: column;
+    }
+    .signUp__password{
+        display: flex;
+        flex-direction: column;
+    }
+    .signUp__form{
+        width: 90vw;
+    }
+    .signUp__form > input{
+        height: 2.5rem;
+        width:  100%;
+        max-width: 90vw;
+        border-radius: 0.85rem;
+        margin-bottom: 1.2rem;
+    }
+    .signUp__label{
+        font-size: 0.85rem;
+    }
+    .signUp__subBtn{
+        height: 2.3rem;
+        width: 10rem;
+        border-radius: 0.9rem;
+        font-size: 0.9rem;
+    }
+    .signUp__formControl{
+        width: 100%;
+    }
+    .signUp__check > span{
+        font-size: 0.8rem;
+        
+    }
+    .signUp__msg{
+        font-size: 0.85rem;
+    }
+    .signUp__check{
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,193 @@
+.accountSetting__container{
+    background-color: transparent;
+    padding: 10vw 6rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.accountSetting__backBtn{
+    color: #C61880;
+    font-size: 1.18rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3rem;
+    background-color: transparent;
+    border: none;
+    font-size: 600;
+}
+.accountSetting__mainHeading{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.accountSetting__user{
+    display: flex;
+}
+.accountSetting__userLeft{
+    display: flex;
+    /* border: 1px solid white; */
+    margin-right: 5vw;
+    width: 35vw;
+}
+.accountSetting__userLeft > p{
+    font-size: 40px;
+    border-bottom: 2px solid #C61880;
+    height: 3rem;
+    margin-right: 5vw;
+}
+.accountSetting__container > a{
+    text-decoration: none;
+}
+.accountSetting__mainHeading{
+    margin-top: 2rem !important;
+}
+.accountSetting__container > a:hover{
+    color: #FA7150 !important;
+    background-color: black !important;
+}
+.accountSetting__userAvatar{
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 50%;
+    background-color: #FA7150;
+    font-size: 3.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.accountSetting__userForm{
+    /* border: 1px solid white; */
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+}
+.accountSetting__formField > input{
+    width: 29vw;
+    background-color: #121212 !important;
+    border: 2px solid #C61880;
+    height: 4.3rem;
+    border-radius: 10px;
+    color: white;
+    padding: 0rem 10px;
+}
+.accountSetting__formField{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+}
+.accountSetting__formField > p{
+    font-size: 1.25rem;
+    font-weight: 600 !important;
+}
+.accountSetting__btn{
+    height: 3.75rem;
+    width: 14.37rem;
+    background-color: #C61880;
+    color: white;
+    border: none;
+    margin: auto;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1500px){
+    .accountSetting__container{
+        padding: 4rem 8vw;
+    }
+    .accountSetting__backBtn{
+        font-size: 1rem;
+        margin-bottom: 1.8rem;
+    }
+    .accountSetting__mainHeading{
+        font-size: 1.5rem;
+        margin-bottom: 4.5rem;
+    }
+    .accountSetting__userLeft{
+        display: flex;
+        margin-right: 5vw;
+        width: 35vw;
+    }
+    .accountSetting__userLeft > p{
+        font-size: 1.8rem;
+        margin-right: 5vw;
+    }
+    .accountSetting__userAvatar{
+        height: 5rem;
+        width: 5rem;
+        font-size: 2rem;
+    }
+    .accountSetting__userForm{
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .accountSetting__formField > input{
+        width: 29vw;
+        background-color: black;
+        border: 2px solid #C61880;
+        height: 3rem;
+        border-radius: 10px;
+    }
+    .accountSetting__formField{
+        margin-bottom: 1rem; 
+    }
+    .accountSetting__formField > p{
+        font-size: 0.9rem;
+    }
+    .accountSetting__btn{
+        height: 2.5rem;
+        width: 13rem;
+        background-color: #C61880;
+        color: white;
+        border: none;
+        margin: auto;
+        border-radius: 25px;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width : 1000px){
+    .accountSetting__user{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .accountSetting__userLeft{
+        width: 90%;
+    }
+    .accountSetting__userForm{
+        margin-top: 4rem;
+        width: 90%;
+    }
+    .accountSetting__formField > input{
+        width: 50vw;
+    }
+}
+@media screen and (max-width: 600px){
+    .accountSetting__userLeft > p{
+        width: fit-content;
+    }
+    .accountSetting__userLeft{
+        display: flex;
+        flex-direction: column;
+    }
+    .accountSetting__formField{
+        display: flex;
+        flex-direction: column;
+    }
+    .accountSetting__formField > input{
+        width: 90%;
+    }
+}
+@media screen and (max-width:480px){
+    .accountSetting__container{
+        padding: 4rem 10px;
+    }
+    .accountSetting__formField > input{
+        width: 100%;
+    }
+}

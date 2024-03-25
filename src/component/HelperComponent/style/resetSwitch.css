@@ -1,0 +1,34 @@
+.darkMode__container{
+    display: flex;
+}
+.reset__switch{
+    border: 2px solid transparent;
+    /* background-color: white; */
+    color: white;
+}
+.darkMode__text{
+    font-size: 0.8rem;
+    font-family: "Mont-serrat", sans-serif;
+    position: relative;
+    top: 3px;
+}
+.MuiSwitch-thumb{
+    color: #C61880;
+    position: relative;
+    top: 2px;
+}
+.MuiSwitch-track{
+    background-color: white;
+    color: white;
+    border: 6px solid white;
+}
+
+/* .MuiSwitch-colorPrimary{
+    background-color: white;
+}
+.Mui-checked{
+    background-color: white;
+} 
+.MuiSwitch-colorPrimary.Mui-checked.MuiSwitch-track{
+    background-color: white;
+} */

@@ -1,0 +1,54 @@
+.loginNav__container{
+    width: 100%;
+    max-width: 100vw;
+    height: 6.85rem;
+    /* background-color: transparent !important; */
+    padding-right: 2rem;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000 !important;
+    padding-left: 2rem;
+    font-family: "Montserrat";
+    background-image: url("../../LandingPage/asset/curved_lines.svg");
+    background-color: black;
+    /* opacity: 0.5; */
+    /* background-color: black; */
+    /* background-position: center; */
+}
+.loginNav__container > img{
+    position: relative;
+    left: 0;
+    top: -10px;
+    /* border: 2px solid red; */
+}
+.loginNav__usernameBox{
+    width: 180px;
+}
+.loginNav__dark{
+    font-family: "Montserrat";
+    color: #C4C4C4;
+    /* border: 2px solid orange; */
+    position: relative;
+    left: -8rem
+}
+
+@media screen and (max-width : 1500px){
+    .loginNav__container{
+        height: 6rem;
+    }
+}
+
+@media screen and (max-width : 700px){
+    .loginNav__dark{
+        display: none;
+    }
+    .loginNav__container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

@@ -1,0 +1,33 @@
+.comment__container{
+   margin-right: 50px;
+    min-width: 340px;
+    background-color: #dddddd;
+    padding: 40px;
+    border-radius: 15px;
+    
+}
+.comment__imgBox{
+    display: flex;
+    justify-content: center;
+}
+.comment__name{
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    color: #C61880;
+}
+.comment__type{
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+.comment__desc{
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+.comment__link{
+    padding-top: 20px;
+    color: #FA7150;
+    text-align: center;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Questrial&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Questrial', sans-serif; */
+
+.homeNavbar__container{
+    height: 6rem !important;
+    width: 100%;
+    background-color: #000000;
+    padding-left: 5vw;
+    padding-right: 1vw;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent; */
+    /* border: 2px solid orange;     */
+}
+.homeNavbar__container > .homeNavbar__tools > a:hover {
+    text-decoration: underline;
+    color: #FA7150;
+}
+
+.homeNavbar__container > .homeNavbar__tools > a{
+    background-color: black !important;
+    text-decoration: none;
+}
+
+/********************** Navbar logo section  ***********************/
+
+.main__Logo{
+    margin-top: 15px;
+    width: 13vw;
+    /* border: 2px solid orange; */
+}
+
+.homeNavbar__toolsBtn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    margin-right: 3vw;
+}
+
+@media screen and (max-width : 1500px){
+    
+.homeNavbar__container{
+    height: 5rem !important;
+}
+
+/********************** Navbar logo section  ***********************/
+.homeNavbar__logoBox{
+    width: 9rem;
+    height: 2rem;
+}
+
+.homeNavbar__toolsBtn{
+    font-size: 0.85rem;
+}
+}
+
+@media screen and (max-width : 950px){
+    .main__Logo{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width : 700px){
+    .main__Logo{
+        margin-top: 15px;
+        width: 30vw;
+    }
+}

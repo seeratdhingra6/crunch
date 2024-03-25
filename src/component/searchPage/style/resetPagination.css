@@ -1,0 +1,32 @@
+.pagination__container{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.pagination__btn{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-family: "Montserrat", "sans-serif";
+}
+.pagination__next{
+    color: #C61880;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media screen and (max-width : 550px){
+}
+.pagination__btn{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}

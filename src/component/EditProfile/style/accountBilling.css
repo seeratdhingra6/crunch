@@ -1,0 +1,167 @@
+.accountBilling__container{
+    background-color: transparent;
+    padding: 6rem 10vw;
+    color: white;
+}
+.accountBilling__subText{
+    font-size: 2.5rem;
+    font-family: 'Questrial', sans-serif;
+    border-bottom: 2px solid #C61880;
+    margin-bottom: 6rem;
+    display: inline-block;
+}
+.accountBilling__plan{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    justify-content: space-between;
+}
+.accountBilling__currentPlan{
+    font-size: 2.25rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.accountBilling__playlist{
+    display: flex;
+    flex-direction: column;
+}
+.accountBilling__playlist > p {
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.accountBilling__oneLine > span{
+    font-size: 18px;
+    padding-right: 5px;
+}
+.accountBilling__oneLine > a {
+    color: #FA7150;
+}
+.accountBilling__paymentText{
+    font-size: 2.3rem;
+    margin-top: 3.1rem;
+}
+/* Table css start */
+.accountBilling__table{
+    width: 100%;
+    margin-top: 3rem;
+}
+.accountBilling__tableHead{
+    width: 90%;
+    margin: auto;
+    font-size: 1.125rem;
+    color: #C4C4C4;
+}
+.billing__tableRow{
+    border: 1rem solid #111111;
+    height: 3.43rem;
+    margin-top: 2rem !important;
+    background-color: #202222;
+}
+
+.billing__helper{
+    font-size: 1.125rem;
+}
+.billing__secondaryText{
+    font-size: 1.18rem;
+    color: #C4C4C4;
+}
+.accountBilling__cancel:hover{
+    background-color: black !important;
+}
+
+@media screen and (max-width : 1500px){
+    .accountBilling__container{
+        padding: 4.5rem 10vw;
+    }
+    .accountBilling__subText{
+        font-size: 1.8rem;
+        margin-bottom: 4.5rem;
+    }
+    .accountBilling__plan{
+        margin-left: 1.5rem;
+    }
+    .accountBilling__currentPlan{
+        font-size: 1.8rem;
+    }
+    .accountBilling__playlist > p {
+        font-size: 1.8rem;
+    }
+    .accountBilling__paymentText{
+        font-size: 1.8rem;
+        margin-top: 2.5rem;
+    }
+    /* Table css start */
+    .accountBilling__table{
+        margin-top: 2rem;
+    }
+    .accountBilling__tableHead{
+        font-size: 0.9rem;
+    }
+    .billing__tableRow{
+        height: 3rem;
+        margin-top: 1.5rem !important;
+    }
+    
+    .billing__helper{
+        font-size: 0.9rem;
+    }
+    .billing__secondaryText{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width : 950px){
+    .accountBilling__plan{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width : 600px){
+    .accountBilling__container{
+        padding: 4.5rem 20px;
+    }
+    .accountBilling__currentPlan{
+        font-size: 1.2rem;
+    }
+    .accountBilling__playlist > p{
+        font-size: 1.5rem;
+    }
+    .accountBilling__oneLine{
+        display: flex;
+        flex-direction: column;
+    }
+    .accountBilling__subText{
+        font-size: 1.3rem;
+        margin-bottom: 3.5rem;
+    }
+    .accountBilling__currentPlan{
+        font-size: 1.3rem;
+    }
+    .accountBilling__playlist > p {
+        font-size: 1.3rem;
+    }
+    .accountBilling__paymentText{
+        font-size: 1.3rem;
+        margin-top: 2.1rem;
+    }
+    /* Table css start */
+    .accountBilling__table{
+        margin-top: 1.5rem;
+    }
+    .accountBilling__tableHead{
+        font-size: 0.8rem;
+    }
+    .billing__tableRow{
+        height: 2.5rem;
+        margin-top: 1.2rem !important;
+    }
+    
+    .billing__helper{
+        font-size: 0.8rem;
+    }
+    .billing__secondaryText{
+        font-size: 0.8rem;
+    }
+}

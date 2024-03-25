@@ -1,0 +1,301 @@
+.working__container{
+    background-color: transparent;
+    padding-top: 3.125rem;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    padding-bottom: 6.25rem;
+}
+.working__mainHeading{
+    font-size: 3.4rem;
+    color: #C61880;
+    text-align: center;
+}
+.working__stepBox{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 3.125rem;
+}
+.working__stepCount{
+    color: #FA7150;
+    font-size: 1.87rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.workingStep__text{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.working__stepBox > img{
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+.working__subBtn{
+    height: 3.75rem;
+    width: 14.3rem;
+    background-color: #C61880;
+    color: white;
+    border: none;
+    margin: auto;
+    border-radius: 1.25rem;
+    font-size: 1.25rem !important;
+    margin-top: 3.125rem;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 13rem
+}
+.working__price{
+    background-color: #C4C4C4;
+    color: #382F35;
+    font-size: 1.25rem;
+    font-family: "Montserrat";
+    font-weight: 450;
+    text-align: center;
+    width: 80vw;
+    max-width: 620px;
+    padding: 3rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+.working__priceText{
+    margin-bottom: 0.3rem;
+}
+.working__btnBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9.3rem;
+}
+.working__playImg{
+    margin-top: 3.125rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.working__priceAmount{
+    font-size: 4rem;
+    color: #C61880;
+    font-weight: 600;
+}
+.working__month{
+    color: #C61880;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.working__subBtnCombine{
+    position: relative;
+    top: -1.3rem !important;
+    height: 3.3rem;
+    width: 17.5rem;
+    background-color: #C61880;
+    color: white;
+    border: none;
+    margin: auto;
+    border-radius: 1.25rem;
+    font-size: 1.25rem !important;
+    margin-bottom: 7.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-width: 13rem; */
+}
+.working__commentBox{
+    margin: 6.25rem 6vw;
+    display: flex;
+    overflow-x: scroll;
+}
+.working__playlistPerfect{
+    width: 80vw !important;
+}
+
+@media screen and (max-width : 1500px){
+    .working__container{
+        padding-top: 2.7rem;
+        padding-bottom: 5.75rem;
+    }
+    .working__mainHeading{
+        font-size: 3rem;
+    }
+    .working__stepBox{
+        margin-top: 2.8rem;
+    }
+    .working__stepCount{
+        font-size: 1.4rem;
+    }
+    .workingStep__text{
+        font-size: 1.25rem;
+    }
+    .working__stepBox > img{
+        margin-top: 2.8rem;
+        margin-bottom: 2.8rem;
+    }
+    .working__subBtn{
+        height: 3rem;
+        width: 13.5rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+    .working__btnBox{
+        margin-bottom: 8.5rem;
+    }
+    .working__btnBoxPic{
+        margin-bottom: 0rem;
+    }
+    .working__playImg{
+        margin-top: 3rem;
+    }
+    .working__playImg > img{
+        transform : scale(0.7)
+    }
+    .working__subBtnCombine{
+        top: -7.9rem;
+        height: 4.3rem;
+        width: 17.5rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        /* margin-bottom: 7rem; */
+    }
+    .working__commentBox{
+        margin: 6rem 6vw;
+        margin-bottom: 0rem;
+        transform: scale(0.8);
+    }
+}
+/* helper class */
+.working__minWidth{
+    width: 60vw;
+    text-align: center !important;
+    margin: auto;
+}
+
+@media screen and (max-width : 950px){
+    .working__container{
+        padding-top: 2.7rem;
+        padding-bottom: 5rem;
+    }
+    .working__mainHeading{
+        font-size: 2.5rem;
+        width: 90vw;
+    }
+    .working__stepBox{
+        margin-top: 2.2rem;
+    }
+    .working__stepCount{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .workingStep__text{
+        font-size: 1rem;
+    }
+    .working__stepBox > img{
+        margin-top: 0rem;
+        transform: scale(0.8);
+        margin-bottom: 0rem;
+    }
+    .working__subBtn{
+        height: 3rem;
+        width: 13.5rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    .working__btnBox{
+        margin-bottom: 7rem;
+    }
+    .working__btnBoxPic{
+        margin-bottom: 0rem;
+    }
+    .working__playImg{
+        margin-top: 3rem;
+    }
+    .working__playImg > img{
+        transform : scale(0.7)
+    }
+    .working__subBtnCombine{
+        top: -7.9rem;
+        height: 4.3rem;
+        width: 17.5rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+    .working__commentBox{
+        margin: 6rem 0vw;
+        margin-bottom: 0rem;
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width : 650px){
+    .working__container{
+        padding-top: 2rem;
+        padding-bottom: 3.5rem;
+    }
+    .working__mainHeading{
+        font-size: 1.9rem;
+        width: 100vw;
+    }
+    .working__stepCount{
+        font-size: 1.3rem;
+        margin-bottom: 0.9rem;
+    }
+    .workingStep__text{
+        font-size: 0.9rem;
+    }
+    .working__stepBox > img{
+        margin-top: 0rem;
+        width: 400px;
+        margin-bottom: 0rem;
+    }
+    .working__subBtn{
+        height: 3rem;
+        width: 13.5rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    .working__btnBox{
+        margin-bottom: 5rem;
+    }
+    .working__playImg{
+        margin-top: 0rem;
+    }
+    .working__playImg > img{
+        width: 400px;
+    }
+    .working__subBtnCombine{
+        top: -5.3rem;
+        height: 3rem;
+        width: 12rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        margin-bottom: 5rem;
+    }
+    .working__commentBox{
+        margin: 6rem 0vw;
+        margin-bottom: 0rem;
+        transform: scale(0.8);
+    }
+    .working__price{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .working__playlistPerfect{
+        font-size: 1.5rem !important;
+    }
+    .working__priceAmount{
+        font-size: 2.3rem;
+        margin-bottom: 1.3rem;
+    }
+    .working__month{
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Questrial', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Questrial', sans-serif;
+    /* background-image: url("./component/LandingPage/asset/bgImg.jpeg"); */
+    background: url("./component/LandingPage/asset/curved_lines.svg");
+    background-color: black !important;
+    /* background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    /* background-color: transparent !important; */
+}
+/* body::before{
+    content : "";
+    background-image: url("./component/LandingPage/asset/bgImg.jpeg");
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+} */
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: black;
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background: rgb(53, 52, 52);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:vertical{
+    background: rgb(105, 103, 103);;
+    border-radius: 10px;
+}

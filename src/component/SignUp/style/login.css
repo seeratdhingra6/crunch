@@ -1,0 +1,37 @@
+.login__container{
+    border: 2px solid black;
+    height: 100vh;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__form{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+}
+ .login__form > .signUp__formControl > input {
+    min-width: 300px !important;
+    background-color: #121212;
+}
+.login__form > .signUp__subBtn{
+    margin-top: 0.5rem;
+}
+.signUp__forgot{
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #FA7150;
+}
+.signUp__forgot:hover{
+    background-color: black !important;
+    text-decoration: none;
+}
+.login__form > button:hover {
+    background-color: #FA7150;
+}
+.login__form > button:focus{
+    background-color: #F5927B;
+}
